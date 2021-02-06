@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.b10a05972e12209a49eb82c1587dc722.js"
+  "/precache-manifest.f2fa698440a7e0383141e374888b7268.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "jawadefaj.github"});
+workbox.core.setCacheNameDetails({prefix: "mahfuzalhasan"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
